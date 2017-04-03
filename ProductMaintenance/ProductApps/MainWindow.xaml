@@ -1,7 +1,7 @@
 ﻿<Window x:Class="ProductApps.MainWindow"
         xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
         xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
-        Title="MainWindow" Height="350" Width="525">
+        Title="MainWindow" Height="397" Width="525">
     <Grid>
         <Label Content="Product:" HorizontalAlignment="Left" Height="30" Margin="46,37,0,0" VerticalAlignment="Top" Width="61"/>
         <Label Content="Price $:" HorizontalAlignment="Left" Height="30" Margin="46,78,0,0" VerticalAlignment="Top" Width="61"/>
@@ -18,6 +18,8 @@
         <TextBlock Name="totalChargeTextBlock" HorizontalAlignment="Left" Margin="218,209,0,0" Height="24" TextWrapping="Wrap" Text="" VerticalAlignment="Top" Width="65"/>
         <Label Content="Total Charge after adding &#xA;the wrap charge ($5)" HorizontalAlignment="Left" Margin="48,248,0,0" VerticalAlignment="Top" Height="50" Width="149"/>
         <TextBlock Name="totalWrapChargeTextBlock" HorizontalAlignment="Left" Margin="218,264,0,0" TextWrapping="Wrap" Text="" VerticalAlignment="Top" Height="25" Width="65"/>
+        <Label Content="Total Charge After GST @10%" HorizontalAlignment="Left" Margin="29,314,0,0" VerticalAlignment="Top" Width="170"/>
+        <TextBlock Name="totalChargeGSTTextBlock" HorizontalAlignment="Left" Margin="218,314,0,0" TextWrapping="Wrap" Text="" VerticalAlignment="Top" Height="26" Width="65"/>
 
 
     </Grid>
